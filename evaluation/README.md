@@ -5,10 +5,15 @@
 ## Usage Example of evaluation_f1_score.py file:
 
   * To evaluate f1 score for segmentation, please run:
+
+
         ```
         python evaluation_f1_score.py --gt_json <ground_truth_annotation> --pred_json <predicted_annotation> --results_name <saved_results> --stenosis False
         ```
+        
   * To evaluate f1 score for stenosis, please run:
+
+
         ```
         python evaluation_f1_score.py --gt_json <ground_truth_annotation> --pred_json <predicted_annotation> --results_name <saved_results> --stenosis True
         ```
