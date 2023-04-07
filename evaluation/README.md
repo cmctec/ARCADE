@@ -35,7 +35,8 @@
   }
   ```
         
-** Note that all annotations are in specified COCO format, [HERE] ( https://cocodataset.org/#format-data) you can see the structure of COCO format for Object Detection. 
+** Note that all annotations are in specified COCO format, [HERE]( https://cocodataset.org/#format-data) you can see the structure of COCO format for Object Detection. 
+
 ** Also note that category ids and their names are provided in **categories_segmentation.json** and **categories_stenosis.json** files
 
 
