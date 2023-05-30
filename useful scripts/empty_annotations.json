@@ -1,0 +1,337 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abuova100001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 2,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abuova200001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 3,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abutaliev100001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 4,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abutaliev200001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 5,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abutaliev300001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 6,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abutaliev400001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 7,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abutov00001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 8,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abutov100001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 9,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abylaev100001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 10,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abylaev200001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 11,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abylkasymov100001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 12,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abylkasymov200001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 13,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abylkasymov300001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 14,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abylkasymov400001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 15,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abzalimov100001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 16,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abzalimov200001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 17,
+            "width": 512,
+            "height": 512,
+            "file_name": "Abzalimov300001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 18,
+            "width": 512,
+            "height": 512,
+            "file_name": "Adigali100001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 19,
+            "width": 512,
+            "height": 512,
+            "file_name": "Adigali200001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 20,
+            "width": 512,
+            "height": 512,
+            "file_name": "Adigali300001_aizhan_01_04_2023.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "1",
+            "supercategory": ""
+        },
+        {
+            "id": 2,
+            "name": "2",
+            "supercategory": ""
+        },
+        {
+            "id": 3,
+            "name": "3",
+            "supercategory": ""
+        },
+        {
+            "id": 4,
+            "name": "4",
+            "supercategory": ""
+        },
+        {
+            "id": 5,
+            "name": "5",
+            "supercategory": ""
+        },
+        {
+            "id": 6,
+            "name": "6",
+            "supercategory": ""
+        },
+        {
+            "id": 7,
+            "name": "7",
+            "supercategory": ""
+        },
+        {
+            "id": 8,
+            "name": "8",
+            "supercategory": ""
+        },
+        {
+            "id": 9,
+            "name": "9",
+            "supercategory": ""
+        },
+        {
+            "id": 10,
+            "name": "9a",
+            "supercategory": ""
+        },
+        {
+            "id": 11,
+            "name": "10",
+            "supercategory": ""
+        },
+        {
+            "id": 12,
+            "name": "10a",
+            "supercategory": ""
+        },
+        {
+            "id": 13,
+            "name": "11",
+            "supercategory": ""
+        },
+        {
+            "id": 14,
+            "name": "12",
+            "supercategory": ""
+        },
+        {
+            "id": 15,
+            "name": "12a",
+            "supercategory": ""
+        },
+        {
+            "id": 16,
+            "name": "13",
+            "supercategory": ""
+        },
+        {
+            "id": 17,
+            "name": "14",
+            "supercategory": ""
+        },
+        {
+            "id": 18,
+            "name": "14a",
+            "supercategory": ""
+        },
+        {
+            "id": 19,
+            "name": "15",
+            "supercategory": ""
+        },
+        {
+            "id": 20,
+            "name": "16",
+            "supercategory": ""
+        },
+        {
+            "id": 21,
+            "name": "16a",
+            "supercategory": ""
+        },
+        {
+            "id": 22,
+            "name": "16b",
+            "supercategory": ""
+        },
+        {
+            "id": 23,
+            "name": "16c",
+            "supercategory": ""
+        },
+        {
+            "id": 24,
+            "name": "12b",
+            "supercategory": ""
+        },
+        {
+            "id": 25,
+            "name": "14b",
+            "supercategory": ""
+        },
+        {
+            "id": 26,
+            "name": "stenosis",
+            "supercategory": ""
+        }
+    ],
+    "annotations": []
+}
