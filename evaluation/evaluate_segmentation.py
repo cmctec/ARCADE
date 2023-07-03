@@ -60,7 +60,7 @@ class Arcade_phase_1_segmentation():
         gt_list = []
         for i in range(0,len(gt_mask),2):
             gt_list.append([gt_mask[i], gt_mask[i+1]])
-        checker = False
+
         try:
             
             intersection = Polygon(pred_list).intersection(Polygon(gt_list))
@@ -69,7 +69,6 @@ class Arcade_phase_1_segmentation():
                 pred_polygon =  Polygon(pred_list).buffer(0)
                 gt_polygon =  Polygon(gt_list).buffer(0)
                 intersection = pred_polygon.intersection(gt_polygon)
-                checker = True
             except:
                 return 0
         
@@ -81,12 +80,16 @@ class Arcade_phase_1_segmentation():
         
         if tp == 0:
             return 0
-        if checker == True:
-            fp = (Polygon(pred_list).buffer(0) - intersection).area
-            fn = (Polygon(gt_list).buffer(0) - intersection).area
+        
+        pred_poly = Polygon(pred_list)
+        gt_poly = Polygon(gt_list)
+        
+        if not pred_poly.is_valid or not gt_poly.is_valid:
+            fp = (pred_poly.buffer(0) - intersection).area
+            fn = (gt_poly.buffer(0) - intersection).area
         else:
-            fp = (Polygon(pred_list) - intersection).area
-            fn = (Polygon(gt_list) - intersection).area
+            fp = (pred_poly - intersection).area
+            fn = (gt_poly - intersection).area
         precision = tp / (tp + fp)
         recall = tp / (tp + fn)
         f1_score = 2*(precision * recall)/ (precision + recall)
