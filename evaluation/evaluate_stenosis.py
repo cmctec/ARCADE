@@ -89,11 +89,11 @@ class Arcade_phase_1_segmentation():
         gt_poly = Polygon(gt_list)
         
         if not pred_poly.is_valid or not gt_poly.is_valid:
-            fp = (Polygon(pred_list).buffer(0) - intersection).area
-            fn = (Polygon(gt_list).buffer(0) - intersection).area
+            fp = (pred_poly.buffer(0) - intersection).area
+            fn = (gt_poly.buffer(0) - intersection).area
         else:
-            fp = (Polygon(pred_list) - intersection).area
-            fn = (Polygon(gt_list) - intersection).area
+            fp = (pred_poly - intersection).area
+            fn = (gt_poly - intersection).area
         precision = tp / (tp + fp)
         recall = tp / (tp + fn)
         f1_score = 2*(precision * recall)/ (precision + recall)
