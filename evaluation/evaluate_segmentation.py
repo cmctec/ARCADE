@@ -76,6 +76,11 @@ class Arcade_phase_1_segmentation():
         if str(type(intersection)) == "<class 'shapely.geometry.polygon.MultiPolygon'>":
             
             intersection = MultiPolygon([x for x in intersection.geoms if str(type(x)) == "<class 'shapely.geometry.polygon.Polygon'>"])
+            polygons = list(intersection.geoms)
+            areas_of_polygons_here = [i.area for i in polygons]
+            for k in range(0, len(polygons)):
+                if polygons[k].area == max(areas_of_polygons_here):
+                    intersection = polygons[k]
 
         tp = intersection.area
         
@@ -85,8 +90,8 @@ class Arcade_phase_1_segmentation():
             fp = (Polygon(pred_list).buffer(0) - intersection).area
             fn = (Polygon(gt_list).buffer(0) - intersection).area
         else:
-            fp = (Polygon(pred_list) - intersection).area
-            fn = (Polygon(gt_list) - intersection).area
+            fp = (Polygon(pred_list).buffer(0) - intersection).area
+            fn = (Polygon(gt_list).buffer(0) - intersection).area
         precision = tp / (tp + fp)
         recall = tp / (tp + fn)
         f1_score = 2*(precision * recall)/ (precision + recall)
